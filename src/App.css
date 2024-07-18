@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+:root {
+  --leaflet-tile-filter: brightness(0.6) invert(1) contrast(3) hue-rotate(200deg) saturate(0.3) brightness(0.7);
+}
+
+.leaflet-container {
+  background: #303030 !important;
+}
+
+.topbar-map-custom-z {
+  z-index: 2000 ;
+}
+
+.leaflet-tile {
+  filter: var(--leaflet-tile-filter, none) !important;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.leaflet-tooltip {
+    backdrop-filter: blur(3.5px) !important;
+    background: rgba(9, 9, 9, .68) !important;
+    border: 1px solid #404040 !important;
+    border-radius: 11px !important;
+    padding: 0 !important;
+    width: 260px !important;
+    color: white !important;
+    top : -10px;
+}
+
+.leaflet-tooltip-bottom:before {
+  border-bottom-color: rgba(9, 9, 9, .68) !important;
+}
+
+.leaflet-popup {
+display: none !important;
+}

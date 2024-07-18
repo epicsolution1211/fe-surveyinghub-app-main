@@ -1,0 +1,25 @@
+{
+  "short_name": "Surveying Hub Cloud",
+  "name": "Surveying Hub is a correction platform that provides highly accurate Real-time RTK- and RINEX post-processing data on demand",
+  "icons": [
+    {
+      "src": "gnss-16x16.png",
+      "type": "image/png",
+      "sizes": "16x16"
+    },
+    {
+      "src": "gnss-32x32.png",
+      "type": "image/png",
+      "sizes": "32x32"
+    },
+    {
+      "src": "gnss-64x64.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
