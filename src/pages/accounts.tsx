@@ -300,6 +300,7 @@ const MainComponent = (props: { auth: Auth, loader: Loader<AccountOverview, unkn
                 endDate: { header: "Date" }
             }}
             data={accountOverview.accounts.map<DataType<AccountTable>>((account) => {
+                console.log(account)
                 return {
                     name: account.name,
                     editAction: () => {
@@ -322,13 +323,11 @@ const MainComponent = (props: { auth: Auth, loader: Loader<AccountOverview, unkn
                         border-transparent 
                         hover:border-solid 
                         hover:border-bg-green1 
-                        w-[107px]
-                        h-[34] 
                         rounded-[15.31px] 
                         text-[14px] 
                         lg:text-[16px] 
-                       
-                        px-6 "
+                        py-[6px]
+                        px-[23px]"
                         >View List</button>,
                         connection: formatConnection(account.connection),
                         endDate: formatDate(account.connection)

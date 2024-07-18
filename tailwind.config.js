@@ -11,6 +11,7 @@ module.exports = {
       screens: {
         'clg1450': {'max': '1450px'},
         'cxl': {'max': '1280px'},
+        '3xl': {'min': '1920px'},
       },
     },
 },
