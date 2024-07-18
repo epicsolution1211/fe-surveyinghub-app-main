@@ -26,6 +26,43 @@ const MapControls = () => {
     return <div className="flex flex-col gap-y-[22px]  fixed bottom-[25%] lg:bottom-[5%] right-[20px] z-[800]">
         <div
             className="flex items-center justify-center backdrop-blur-[2.76px] bg-[rgba(0,0,0,0.63)] rounded-full shrink-0 h-[52.992px] w-[52.992px] cursor-pointer"
+        >
+            <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_b_1_346)">
+                    <circle cx="26.4961" cy="26.4961" r="26.4961" fill="black" fill-opacity="0.63"/>
+                    <circle cx="26.4961" cy="26.4961" r="26.0259" stroke="#4E4E4E" stroke-opacity="0.36" stroke-width="0.940389"/>
+                </g>
+                <defs>
+                    <filter id="filter0_b_1_346" x="-5.52003" y="-5.52003" width="64.0322" height="64.0322" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="2.76001"/>
+                        <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_346"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_346" result="shape"/>
+                    </filter>
+                </defs>
+            </svg>
+
+        </div>
+        <div
+            className="flex items-center justify-center backdrop-blur-[2.76px] bg-[rgba(0,0,0,0.63)] rounded-full shrink-0 h-[52.992px] w-[52.992px] cursor-pointer"
+        >
+            <svg width="53" height="53" viewBox="0 0 53 53" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g filter="url(#filter0_b_1_349)">
+                    <circle cx="26.504" cy="26.4961" r="26.4961" fill="black" fill-opacity="0.63"/>
+                    <circle cx="26.504" cy="26.4961" r="26.0259" stroke="#4E4E4E" stroke-opacity="0.36" stroke-width="0.940389"/>
+                </g>
+                <defs>
+                    <filter id="filter0_b_1_349" x="-5.51222" y="-5.52003" width="64.0322" height="64.0322" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                        <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="2.76001"/>
+                        <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_1_349"/>
+                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_1_349" result="shape"/>
+                    </filter>
+                </defs>
+            </svg>
+        </div>
+        <div
+            className="flex items-center justify-center backdrop-blur-[2.76px] bg-[rgba(0,0,0,0.63)] rounded-full shrink-0 h-[52.992px] w-[52.992px] cursor-pointer"
             onClick={() => snapToUser()}>
             <svg xmlns="http://www.w3.org/2000/svg" width="27" height="27" viewBox="0 0 27 27" fill="none">
                 <g clipPath="url(#clip0_0_80)">
